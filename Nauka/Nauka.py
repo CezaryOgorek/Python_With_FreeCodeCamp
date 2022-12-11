@@ -71,3 +71,16 @@
 #    count += 1
 #    total += numer
 #print(total, count, total/count)
+
+
+#Zad8
+str = 'X-DSPAM-Confidence: 0.08475 '
+space_p1 = str.find(' ')
+print(space_p1)
+space_p2 = str.find(' ', space_p1+1)
+print(space_p2)
+ans = str[space_p1+1:space_p2]
+ans = float(ans)
+print(ans)
+
+
